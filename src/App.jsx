@@ -6,7 +6,7 @@ import TaskList from './components/TaskList';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/task-manager">
+    <BrowserRouter basename="/frontapp1">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
